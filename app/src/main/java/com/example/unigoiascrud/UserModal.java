@@ -7,7 +7,9 @@ import androidx.room.PrimaryKey;
 public class UserModal {
     @PrimaryKey(autoGenerate = true)
     private int id;
+    // nome do usuario
     private String userName;
+    // descricao do curso
     private String courseDescription;
     private String estiloCurso;
     public UserModal(String userName, String courseDescription, String estiloCurso) {
