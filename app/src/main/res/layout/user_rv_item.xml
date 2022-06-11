@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+    <LinearLayout
+        android:id="@+id/idLLUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <!--text view para o nome do usuario-->
+        <TextView
+            android:id="@+id/idTVNomeUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Nome do usuario"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <!--text view para a duração do usuario-->
+        <TextView
+            android:id="@+id/idTVDescricaoCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Nome do curso"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/idTVEstiloCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Presencial/EAD"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

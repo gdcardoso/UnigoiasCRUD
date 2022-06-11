@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewUserActivity">
+    <EditText
+        android:id="@+id/idEdtNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Nome do aluno" />
+
+    <EditText
+        android:id="@+id/idEdtDescricaoCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Nome do curso" />
+
+    <EditText
+        android:id="@+id/idEdtEstiloCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Presencial/EAD" />
+    <Button
+        android:id="@+id/idBtnSaveUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Salvar aluno"
+        android:textAllCaps="false" />
+
+</LinearLayout>
